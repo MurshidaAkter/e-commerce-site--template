@@ -471,7 +471,7 @@ label{
     min-height: 90vh;
     color: var(--default-bright);
 
-    background: url(https://murshidaakter.github.io/e-commerce-site-template/images/reg_gb.jpg) no-repeat center ;
+    background: url(https://murshidaakter.github.io/e-commerce-site--template/images/reg_gb.jpg) no-repeat center ;
     background-attachment: fixed;
     background-size: cover;
 }
@@ -529,7 +529,7 @@ label{
 
 /*page >>> log in page background */
 .login-page{
-    background: url(/images/login_bg.jpg) no-repeat center ;
+    background: url(https://murshidaakter.github.io/e-commerce-site--template/images/login_bg.jpg) no-repeat center ;
     background-attachment: fixed;
     background-size: cover;
 }
