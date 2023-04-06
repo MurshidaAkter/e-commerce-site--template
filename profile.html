@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kzk Express</title>
+    <link rel="stylesheet" href="styles/style.css">
+
+    <!-- Font awesome cdn -->
+        <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300&family=Montserrat+Alternates:wght@300&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <i class="fa-solid fa-bars fa-2x" id="menu-icon"></i>
+    <!-- nav bar starts here -->
+    <nav id="menu" class="hidden">
+        <ul class="upper-nav flex-space-around">
+            <li class="upper-nav__li">
+                <a href="index.html" class="upper-nav__link">Home</a>
+            </li>
+
+            <li class="upper-nav__li">
+                <a href="register.html" class="upper-nav__link">Register</a>
+            </li>
+
+            <li class="upper-nav__li">
+                <a href="login.html" class="upper-nav__link">Log in</a>
+            </li>
+
+            <li class="upper-nav__li">
+                <a href="index.html" class="upper-nav__link">Log 0ut</a>
+            </li>
+
+            <li class="upper-nav__li">
+                <a href="contact.html" class="upper-nav__link">Contact</a>
+            </li>
+
+            <li class="upper-nav__li">
+                <a href="profile.html">
+                    <img src="images/profile_Picture.jpg" alt="profile-icon" class="profile-icon flex-center profile-page-location">
+                </a>
+            </li>
+        </ul>
+
+        <ul class="lower-nav flex-space-around">
+            <li class="lower-nav__li">
+                <a href="index.html" class="lower-nav__link branding">Kzk Express</a>
+            </li>
+
+            <li class="lower-nav__li">
+                <a href="cart.html" class="lower-nav__link">
+                    <span><i class="fa-solid fa-cart-shopping"></i></span>
+                    Cart</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- nav bar ends here  -->
+
+    <main class="profile-page__main">
+        <section class="profile-page flex-center">
+            <h2 class="section-title">User Profile</h2>
+
+            <div class="profile-card">
+                <form action="" class="reg-form">
+
+                    <div class="profile-div flex-center">
+                        <img src="images/profile_Picture.jpg" alt="profile-pic" class="profile-img"> 
+                        <div class="user-div">
+                            <h2 class="user-name">Arata Kazuko</h2> 
+                            <button class="btn edit-btn"><i class="fa-solid fa-pen-to-square"></i></button>
+                        </div>  
+                    </div>
+
+                    <div class="profile-objects">
+                        <div class="form-control profile__box profile__box1">
+
+                            <div class="profile__about">
+                                <div class="about__header">
+                                    <h3>About</h3>
+                                    <section class="modes">public</section>
+                                </div> <br>
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem 
+                                    Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                                </p>
+                            </div> <br> <br>
+
+                            <div class="profile__ranking">
+                                <h4>Reviewer ranking</h4>
+                                <p> 
+                                    &#35 45,989,300
+                                </p>
+                            </div>
+
+                        </div>
+    
+                        <div class="form-control profile__box profile__box2">
+                            <h3>Insights</h3> <br> <br>
+                            <div class="insights flex-center">
+                                <div class="votes">
+                                    <span class="num">1</span>
+                                    <p>helpful votes</p> 
+                                <section class="modes">public</section>
+                                </div>
+                                <div class="reviews">
+                                    <span class="num">1</span>
+                                    <p>reviews</p>
+                                <section class="modes">public</section>
+                                </div>
+                                <div class="hearts">
+                                    <span class="num">0</span>
+                                    <p>hearts</p>
+                                <section class="modes">public</section>
+                                </div>
+                                <div class="idea">
+                                    <span class="num">0</span>
+                                    <p>idea lists</p>
+                                <section class="modes">public</section>
+                                </div>
+                                <div class="follower">
+                                    <span class="num">0</span>
+                                    <p>follower</p> 
+                                <section class="modes">public</section>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <div class="form-control form-btn-div flex-center">
+                        <button type="submit" class="btn reg-btn">submit</button>
+                    </div> -->
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer starts here -->
+    <footer class="flex-space-around">
+        <div class="flex-space-around">
+            <label for="subscribe">Subscribe To Newsletter: </label>
+            <input type="email"
+            id="subscribe"
+            name="subscribe"
+            class="footer__input"
+            placeholder="Your Email Address">
+    
+            <button class="btn btn__subscribe">subscribe</button>
+        </div>
+
+        <div>
+            <p>&copy; Copyright 2023 KZK Express</p>
+        </div>
+    </footer>
+    <!-- footer endsss here -->
+
+    <script src="scripts/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kzk Express</title>
+    <link rel="stylesheet" href="styles/style.css">
+
+    <!-- Font awesome cdn -->
+        <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Font family link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Handlee&family=Rubik+Gemstones&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <i class="fa-solid fa-bars fa-2x" id="menu-icon"></i>
+    <!-- nav bar starts here -->
+    <nav id="menu" class="hidden">
+        <ul class="upper-nav flex-space-around">
+            <li class="upper-nav__li">
+                <a href="index.html" class="upper-nav__link">Home</a>
+            </li>
+
+            <li class="upper-nav__li">
+                <a href="register.html" class="upper-nav__link page-location">Register</a>
+            </li>
+
+            <li class="upper-nav__li">
+                <a href="login.html" class="upper-nav__link">Log in</a>
+            </li>
+
+            <li class="upper-nav__li">
+                <a href="index.html" class="upper-nav__link">Log 0ut</a>
+            </li>
+
+            <li class="upper-nav__li">
+                <a href="contact.html" class="upper-nav__link">Contact</a>
+            </li>
+
+            <li class="upper-nav__li">
+                <a href="profile.html" class="upper-nav__link">
+                    <img src="images/profile.jpg" alt="profile-icon" class="profile-icon">
+                </a>
+            </li>
+        </ul>
+
+        <ul class="lower-nav flex-space-around">
+            <li class="lower-nav__li">
+                <a href="index.html" class="lower-nav__link branding">Kzk Express</a>
+            </li>
+
+            <li class="lower-nav__li">
+                <a href="cart.html" class="lower-nav__link">
+                    <span><i class="fa-solid fa-cart-shopping-fast"></i></span>
+                    Cart</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- nav bar ends here  -->
+
+    <main class="flex-center product-page">
+        <div class="main-content">
+            <section class="product-details flex-center">
+                <div class="product-details__left flex-center">
+                    <img src="images/elec.jpg" alt="product-2" class="product_img">
+                </div>
+
+                <div class="product-details__right">
+                    <h3 class="product__name">Rubber Tree</h3>
+                        <p>
+                            <span class="dot green"></span>
+                            <span class="dot black"></span>
+                            <span class="dot red"></span>
+                        </p>
+
+                        <p>
+                            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+                        </p><br>
+
+                        <p>
+                            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+                        </p><br>
+
+                        <h4 class="product__price">Category: Home, Pet & Appliances</h4>
+                        <h4 class="product__price">Price: $15.12</h4>
+                        <h4 class="product__rating">Rating: 5/5</h4> <br>
+                        <div class="product__btn-divs flex-space-around">
+                            <button class="btn product__btn">Add To Cart</button>
+            
+                            <button class="btn product__btn"><a href="index.html">Back to Shopping</a></button>
+                        </div> 
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- footer starts here -->
+    <footer class="flex-space-around">
+        <div class="flex-space-around">
+            <label for="subscribe">Subscribe To Newsletter: </label>
+            <input type="email"
+            id="subscribe"
+            name="subscribe"
+            class="footer__input"
+            placeholder="Your Email Address">
+    
+            <button class="btn btn__subscribe">subscribe</button>
+        </div>
+
+        <div>
+            <p>&copy; Copyright 2023 KZK Express</p>
+        </div>
+    </footer>
+    <!-- footer endsss here -->
+
+    <script src="scripts/index.js"></script>
+</body>
+</html>

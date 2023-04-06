@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kzk Express</title>
+    <link rel="stylesheet" href="styles/style.css">
+
+    <!-- Font awesome cdn -->
+    <script src="https://kit.fontawesome.com/6068d8aabd.js" crossorigin="anonymous"></script>
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300&family=Montserrat+Alternates:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <i class="fa-solid fa-bars fa-2x" id="menu-icon"></i>
+    <!-- nav bar starts here -->
+    <nav id="menu" class="hidden">
+        <ul class="upper-nav flex-space-around">
+            <li class="upper-nav__li">
+                <a href="index.html" class="upper-nav__link page-location">Home</a>
+            </li>
+
+            <li class="upper-nav__li">
+                <a href="register.html" class="upper-nav__link">Register</a>
+            </li>
+
+            <li class="upper-nav__li">
+                <a href="login.html" class="upper-nav__link">Log in</a>
+            </li>
+
+            <li class="upper-nav__li">
+                <a href="index.html" class="upper-nav__link">Log 0ut</a>
+            </li>
+
+            <li class="upper-nav__li">
+                <a href="contact.html" class="upper-nav__link">Contact</a>
+            </li>
+
+            <li class="upper-nav__li">
+                <a href="profile.html">
+                    <img src="images/profile_Picture.jpg" alt="profile-icon" class="profile-icon flex-center">
+                </a>
+            </li>
+        </ul>
+
+        <ul class="lower-nav flex-space-around">
+            <li class="lower-nav__li">
+                <a href="index.html" class="lower-nav__link branding">Kzk Express</a>
+            </li>
+
+            <li class="lower-nav__li">
+                <a href="cart.html" class="lower-nav__link">
+                    <span><i class="fa-solid fa-cart-shopping"></i></span>
+                    Cart</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- nav bar ends here  -->
+
+    <!-- Banner Section Starts -->
+    <header>
+        <div class="banner flex-space-around">
+            <marquee class="marq-title" behavior="" direction="">20% off on Toys!!</marquee>
+
+            <div class="features flex-space-around">
+
+                <article class="features__article flex-center">
+                    <i class="fa-solid fa-truck-fast article__icon"></i>
+
+                    <h3>Shippig within 7 days</h3>
+                </article>
+
+                <article class="features__article flex-center">
+                    <i class="fa-brands fa-rocketchat article__icon"></i>
+
+                    <h3>Support 24/7</h3>
+                </article>
+
+                <article class="features__article flex-center">
+                    <i class="fa-regular fa-credit-card article__icon"></i>
+
+                    <h3>Safe Payment</h3>
+                </article>
+
+            </div>
+        </div>
+    </header>
+    <!-- Banner Section Ends -->
+
+    <main class="flex-center">
+        <div class="sidebar">
+            <section class="category">
+                <h3>Categories</h3> <br>
+                <ul class="list">
+                    <li class="list__item">
+                        <label for="electronics">
+                        <input  type="checkbox" 
+                                name="electronics" 
+                                id="electronics" 
+                                value="electronics"> Consumer Electronics</label>
+                    </li>
+
+                    <li class="list__item">
+                        <label for="clothings">
+                        <input type="checkbox" 
+                                name="clothings" 
+                                id="clothings" 
+                                value="clothings"> Clothings</label>
+                    </li>
+
+                    <li class="list__item">
+                        <label for="home">
+                        <input type="checkbox" 
+                                name="home" 
+                                id="home" 
+                                value="home"> Home,Pet & Appliances</label>
+                    </li>
+
+                    <li class="list__item">
+                        <label for="toys">
+                        <input type="checkbox" 
+                                name="toys" 
+                                id="toys" 
+                                value="toys"> Toys, Kids and Babies</label>
+                    </li>
+
+                </ul> <br> <br>
+            </section>
+
+            <section class="price">
+                <h3>Price-range</h3> <br>
+                <ul class="list">
+                    <li class="list__item">
+                        <label for="price1">
+                        <input  type="radio" 
+                                name="price1" 
+                                id="price1" 
+                                value="[0,20]"> $0 - $20</label>
+                    </li>
+
+                    <li class="list__item">
+                        <label for="price2">
+                        <input type="radio" 
+                                name="price2" 
+                                id="price2" 
+                                value="21,80"> $21 - $80</label>
+                    </li>
+
+                    <li class="list__item">
+                        <label for="price3">
+                        <input type="radio" 
+                                name="price2" 
+                                id="price2" 
+                                value="81,120"> $81 - $120</label>
+                    </li>
+
+                    <li class="list__item">
+                        <label for="price4">
+                        <input type="radio" 
+                                name="price3" 
+                                id="price3" 
+                                value="[above]"> $121 - Above</label>
+                    </li>
+                </ul>
+            </section> <br> <br>
+
+            <section class="shipping">
+                <h3>Shipping Options</h3> <br>
+                <ul class="list">
+                    <li class="list__item">
+                        <label for="free">
+                        <input  type="radio" 
+                                name="shipping" 
+                                id="free" 
+                                value="free">Free Shipping</label>
+                    </li>
+
+                    <li class="list__item">
+                        <label for="paid">
+                        <input  type="radio" 
+                                name="shipping" 
+                                id="paid" 
+                                value="paid">Paid Shipping</label>
+                    </li>
+                </ul>
+            </section> <br>
+        </div>
+
+        <div class="main-content">
+            <section class="actions flex-space-around">
+                <div class="action__sort">
+                    <label for="sort">Sort By:</label>
+                    <select name="sort" id="sort">
+                        <option value="sold">Most Sold</option>
+                        <option value="trendy">Trendy Items</option>
+                        <option value="arrival">New Arrivals</option>
+                        <option value="suggu">Suggested</option>
+                        <option value="rated">Most Rated</option>
+                    </select>
+                </div>
+
+                <div class="action__search">
+                    <input type="text" placeholder="Search product">
+                    <button class="btn">
+                       <i class="fa-sharp fa-solid fa-magnifying-glass"></i>     
+                    </button>
+                </div>
+            </section>
+
+            <!-- product section starts here -->
+            <section class="products">
+                <article class="product card">
+                    <div class="badge">
+                        <span>2 in stock</span>
+                        <hr class="hr-design">
+                        <span>5 sold</span>
+                    </div>
+
+                    <img src="images/home__plant.jpg" alt="product1">
+                    <div class="product__body">
+                        <h3 class="product__name">Rubber Tree</h3>
+                        <p>
+                            <span class="dot green"></span>
+                            <span class="dot black"></span>
+                            <span class="dot red"></span>
+                        </p>
+
+                        
+
+                        <p class="product__desc">
+                            Create a bold, dramatic look in your home with fiddle...
+                            <a href="product.html" class="learn-more">Learn More</a>
+                         </p>
+
+                        <h4 class="product__price">$15.12</h4>
+                        <p class="product__rating">5/5</p>
+                        <button class="btn product__btn">Add To Cart</button> <br>
+                    </div>
+                </article>
+
+                <article class="product card">
+                    <div class="badge">
+                        <span>3 in stock</span>
+                        <hr class="hr-design">
+                        <span>4 sold</span>
+                    </div>
+
+                    <img src="images/elec.jpg" alt="product2">
+                    <div class="product__body">
+                        <h3 class="product__name">Casio Watch</h3>
+                        <p>
+                            <span class="dot green"></span>
+                            <span class="dot black"></span>
+                            <span class="dot red"></span>
+                        </p>
+
+                        <p class="product__desc">
+                            Ladies, on the go or just at home this casual classic ....
+                            <a href="product2.html" class="learn-more">Learn More</a>
+                        </p>
+
+                        <h4 class="product__price">$22.95</h4>
+                        <p class="product__rating">4/5</p>
+                        <button class="btn product__btn">Add To Cart</button>
+                    </div>
+                </article>
+
+                <article class="product card">
+                    <div class="badge">
+                        <span>9 in stock</span>
+                        <hr class="hr-design">
+                        <span>7 sold</span>
+                    </div>
+
+                    <img src="images/toy.jpg" alt="product3">
+                    <div class="product__body">
+                        <h3 class="product__name">Soft Toy</h3>
+                        <p>
+                            <span class="dot green"></span>
+                            <span class="dot black"></span>
+                            <span class="dot red"></span>
+                        </p>
+
+                        <p class="product__desc">
+                            Children will love the kind features and irresistibly...
+                            <a href="product3.html" class="learn-more">Learn More</a>
+                        </p>
+
+                        <h4 class="product__price">$18.99</h4>
+                        <p class="product__rating">5/5</p>
+                        <button class="btn product__btn">Add To Cart</button>
+                    </div>
+                </article>
+
+                <article class="product card">
+                    <div class="badge">
+                        <span>4 in stock</span>
+                        <hr class="hr-design">
+                        <span>6 sold</span>
+                    </div>
+
+                    <img src="images/shirt_clothings.jpg" alt="product4">
+                    <div class="product__body">
+                        <h3 class="product__name">Cotton Shirt</h3>
+                        <p>
+                            <span class="dot green"></span>
+                            <span class="dot black"></span>
+                            <span class="dot red"></span>
+                        </p>
+
+                        <p class="product__desc">
+                            Our consistent sizing takes the guesswork out of shopping...
+                            <a href="product4.html" class="learn-more">Learn More</a>
+                        </p>
+
+                        <h4 class="product__price">$20.90</h4>
+                        <p class="product__rating">4.5/5</p>
+                        <button class="btn product__btn">Add To Cart</button>
+                    </div>
+                </article>
+
+                <article class="product card">
+                    <div class="badge">
+                        <span>2 in stock</span>
+                        <hr class="hr-design">
+                        <span>8 sold</span>
+                    </div>
+
+                    <img src="images/coffee.jpg" alt="product5">
+                    <div class="product__body">
+                        <h3 class="product__name">Coffee Beans</h3>
+                        <p>
+                            <span class="dot green"></span>
+                            <span class="dot black"></span>
+                            <span class="dot red"></span>
+                        </p>
+
+                        <p class="product__desc">
+                            The fresher the beans, the more satisfying ....
+                            <a href="product5.html" class="learn-more">Learn More</a>
+                        </p>
+
+                        <h4 class="product__price">$19.22</h4>
+                        <p class="product__rating">4/5</p>
+                        <button class="btn product__btn">Add To Cart</button>
+                    </div>
+                </article>
+
+                <article class="product card">
+                    <div class="badge">
+                        <span>9 in stock</span>
+                        <hr class="hr-design">
+                        <span>5 sold</span>
+                    </div>
+
+                    <img src="images/home__bed.jpg" alt="product6">
+                    <div class="product__body">
+                        <h3 class="product__name">Bed SHeet</h3>
+                        <p>
+                            <span class="dot green"></span>
+                            <span class="dot black"></span>
+                            <span class="dot red"></span>
+                        </p>
+
+                        <p class="product__desc">
+                            The lightweight, all-season cotton jersey sheet...
+                            <a href="product6.html" class="learn-more">Learn More</a>
+                        </p>
+
+                        <h4 class="product__price">$38.99</h4>
+                        <p class="product__rating">4.5/5</p>
+                        <button class="btn product__btn">Add To Cart</button>
+                    </div>
+                </article>
+
+                <article class="product card">
+                    <div class="badge">
+                        <span>3 in stock</span>
+                        <hr class="hr-design">
+                        <span>9 sold</span>
+                    </div>
+
+                    <img src="images/baby.jpg" alt="product7">
+                    <div class="product__body">
+                        <h3 class="product__name">Baby Wipes</h3>
+                        <p>
+                            <span class="dot green"></span>
+                            <span class="dot black"></span>
+                            <span class="dot red"></span>
+                        </p>
+
+                        <p class="product__desc">
+                            wipes are made with pharmaceutical-grade  ...
+                            <a href="product7.html" class="learn-more">Learn More</a>
+                        </p>
+
+                        <h4 class="product__price">$11.12</h4>
+                        <p class="product__rating">5/5</p>
+                        <button class="btn product__btn">Add To Cart</button>
+                    </div>
+                </article>
+
+                <article class="product card">
+                    <div class="badge">
+                        <span>1 in stock</span>
+                        <hr class="hr-design">
+                        <span>4 sold</span>
+                    </div>
+
+                    <img src="images/headphn_elec.jpg" alt="product8">
+                    <div class="product__body">
+                        <h3 class="product__name">Headphones</h3>
+                        <p>
+                            <span class="dot green"></span>
+                            <span class="dot black"></span>
+                            <span class="dot red"></span>
+                        </p>
+
+                        <p class="product__desc">
+                            Philips H85006 Over-Ear Wireless...
+                            <a href="product8.html" class="learn-more">Learn More</a>
+                        </p>
+
+                        <h4 class="product__price">$149.99</h4>
+                        <p class="product__rating">5/5</p>
+                        <button class="btn product__btn">Add To Cart</button>
+                    </div>
+                </article>
+
+                <article class="product card">
+                    <div class="badge">
+                        <span>4 in stock</span>
+                        <hr class="hr-design">
+                        <span>6 sold</span>
+                    </div>
+
+                    <img src="images/shirt_clothings.jpg" alt="product4">
+                    <div class="product__body">
+                        <h3 class="product__name">Cotton Shirt</h3>
+                        <p>
+                            <span class="dot green"></span>
+                            <span class="dot black"></span>
+                            <span class="dot red"></span>
+                        </p>
+
+                        <p class="product__desc">
+                            Our consistent sizing takes the guesswork out of shopping...
+                            <a href="product4.html" class="learn-more">Learn More</a>
+                        </p>
+
+                        <h4 class="product__price">$20.90</h4>
+                        <p class="product__rating">4.5/5</p>
+                        <button class="btn product__btn">Add To Cart</button>
+                    </div>
+                </article>
+
+                <article class="product card">
+                    <div class="badge">
+                        <span>2 in stock</span>
+                        <hr class="hr-design">
+                        <span>8 sold</span>
+                    </div>
+
+                    <img src="images/coffee.jpg" alt="product5">
+                    <div class="product__body">
+                        <h3 class="product__name">Coffee Beans</h3>
+                        <p>
+                            <span class="dot green"></span>
+                            <span class="dot black"></span>
+                            <span class="dot red"></span>
+                        </p>
+
+                        <p class="product__desc">
+                            The fresher the beans, the more satisfying ....
+                            <a href="product5.html" class="learn-more">Learn More</a>
+                        </p>
+
+                        <h4 class="product__price">$19.22</h4>
+                        <p class="product__rating">4/5</p>
+                        <button class="btn product__btn">Add To Cart</button>
+                    </div>
+                </article>
+            </section>
+             <!-- product section ends here -->
+
+             <!-- pagination starts here -->
+            <div class="pages">
+                <button class="btn pages__btn">
+                    <i class="fas fa-less-than"></i>
+                </button>
+                <button class="btn pages__btn">1</button>
+                <button class="btn pages__btn">2</button>
+                <button class="btn pages__btn">3</button>
+                <button class="btn pages__btn">4</button>
+                <button class="btn pages__btn">....</button>
+                <button class="btn pages__btn">11</button>
+                <button class="btn pages__btn">
+                    <i class="fas fa-greater-than"></i>
+                </button>
+            </div>
+        </div>
+</main>
+
+<!-- footer starts here -->
+<footer class="flex-space-around">
+    <div class="flex-space-around">
+        <label for="subscribe">Subscribe To Newsletter: </label>
+        <div class="footer__subscription flex-space-around">
+            <input type="email"
+            id="subscribe"
+            name="subscribe"
+            class="footer__input"
+            placeholder="Your Email Address">
+
+        <button class="btn btn__subscribe">subscribe</button>
+        </div>
+    </div>
+
+    <div>
+        <p>&copy; Copyright 2023 KZK Express</p>
+    </div>
+</footer>
+<!-- footer endsss here -->
+
+    <script src="scripts/index.js"></script>
+</body>
+</html>
