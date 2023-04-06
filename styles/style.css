@@ -229,7 +229,7 @@ nav{
     flex-direction: column;
     padding-bottom: 10rem;
 
-    background: url(/images/banner.jpg) no-repeat center ;
+    background: url(https://murshidaakter.github.io/e-commerce-site--template/images/banner.jpg) no-repeat center ;
     background-attachment: fixed;
     background-size: cover;
 }
@@ -541,7 +541,7 @@ label{
     flex-direction: column;
     gap: 3rem;
 
-    background: url(/images/profile-bg.jpg) no-repeat center ;
+    background: url(https://murshidaakter.github.io/e-commerce-site--template/images/profile-bg.jpg) no-repeat center ;
     background-attachment: fixed;
     background-size: cover;
 
@@ -640,7 +640,7 @@ label{
     flex-direction: column;
     gap: 2rem;
 
-    background: url(/images/contact-bg.jpg) no-repeat center ;
+    background: url(https://murshidaakter.github.io/e-commerce-site--template/images/contact-bg.jpg) no-repeat center ;
     background-attachment: fixed;
     background-size: cover;
 
@@ -690,7 +690,7 @@ label{
     padding: 1rem;
     min-height: 72vh;
 
-    background: url(/images/cart-bg.jpg) no-repeat center ;
+    background: url(https://murshidaakter.github.io/e-commerce-site--template/images/cart-bg.jpg) no-repeat center ;
     background-attachment: fixed;
     background-size: cover;
 
