@@ -1087,6 +1087,10 @@ label{
 @media (max-width: 415px){
     :root{
         --card-shadow:0.5rem 0.7rem 1rem #000000;
+        --general:1rem;
+        --h1:2rem;
+        --h2:1.7rem;
+        --h3:1.4rem;
     }
 
     .sidebar{
@@ -1157,14 +1161,29 @@ label{
     }
 
     /*page >>> registration pages ends here*/
+    
+    /*page >>> product pages starts here*/
+    .product-page{
+        background-color: var(--default-bright);
+        height: 75vh;
+    }
+
+    .product-details{
+        flex-direction: column;
+    }
+
+    .product__btn a{
+        color: var(--default-bright);
+    }
+
+    .product__btn-divs .product__btn{
+        width: 60%;
+
+        font-size: var(--general);
+    }
+    /* Product page >>> product details ends here*/
 
 }
 
 @media (max-width: 391px){
-    :root{
-        --general:1rem;
-        --h1:2rem;
-        --h2:1.7rem;
-        --h3:1.4rem;
-    }
 }
