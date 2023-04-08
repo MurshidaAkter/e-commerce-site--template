@@ -347,11 +347,11 @@ select{
 }
 
 .product__name{
-    margin-top: 2rem;
+    font-size: 1.5rem;
 }
 
 .product__desc{
-    padding-bottom: 4rem;
+    padding-bottom: 2rem;
 }
 
 .product__btn{
